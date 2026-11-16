@@ -16,7 +16,7 @@
 
 <div class="form-wrap">
   <h2>応募・相談フォーム</h2>
-  <p class="lead">必要事項をご記入ください。</p>
+  <p class="lead">必要事項をご記入ください。30分の無料相談をご希望の方は、<a href="https://x.com/kuronekoChance" target="_blank" rel="noopener">XのDM</a>からご連絡ください。</p>
 
   <form id="apply" novalidate>
     <div class="field">
@@ -41,10 +41,11 @@
       <fieldset>
         <legend>ご相談内容（複数選択可）</legend>
         <div class="checks">
-          <label><input type="checkbox" name="topic" value="戦略設計"> AI活用の戦略設計</label>
-          <label><input type="checkbox" name="topic" value="PoC"> PoC・プロトタイプ</label>
-          <label><input type="checkbox" name="topic" value="自動化"> エージェント・業務自動化</label>
-          <label><input type="checkbox" name="topic" value="研修"> 社内定着・研修</label>
+          <label><input type="checkbox" name="topic" value="テンプレ整備"> 返信・文書のテンプレ整備</label>
+          <label><input type="checkbox" name="topic" value="下書きの仕組み"> 返信や資料の下書きの仕組み</label>
+          <label><input type="checkbox" name="topic" value="受付・日程調整"> 受付〜日程調整の流れの整備</label>
+          <label><input type="checkbox" name="topic" value="SNS発信"> SNS発信の仕組みづくり</label>
+          <label><input type="checkbox" name="topic" value="何から始めるか"> 何から始めればいいか分からない</label>
           <label><input type="checkbox" name="topic" value="その他"> その他</label>
         </div>
       </fieldset>
@@ -54,14 +55,14 @@
       <select id="budget" name="budget">
         <option value="">選択してください</option>
         <option>未定・相談したい</option>
-        <option>〜30万円</option>
-        <option>30〜100万円</option>
-        <option>100万円以上</option>
+        <option>〜10万円</option>
+        <option>10〜30万円</option>
+        <option>30万円以上</option>
       </select>
     </div>
     <div class="field">
       <label for="message">ご相談の詳細<span class="req">必須</span></label>
-      <textarea id="message" name="message" required placeholder="現在の課題、やりたいこと、時期の希望など"></textarea>
+      <textarea id="message" name="message" required placeholder="いちばん手間に感じていること、やりたいこと、時期の希望など"></textarea>
       <div class="error">ご相談内容を入力してください。</div>
     </div>
     <div class="field">
