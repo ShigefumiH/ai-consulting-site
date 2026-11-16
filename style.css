@@ -71,6 +71,18 @@ h2 { font-size: 28px; margin-bottom: 8px; }
 @media (max-width: 640px) { .profile { grid-template-columns: 1fr; } nav a.hide { display: none; } }
 
 .cta-band { text-align: center; }
+
+/* 通知のイメージ(ダミー) */
+.mock { margin-top: 28px; max-width: 560px; background: #1a1d29; border: 1px solid #ffffff22; border-radius: 12px; padding: 16px 20px 20px; }
+.mock-bar { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+.mock-msg { display: flex; gap: 12px; }
+.mock-ava { width: 36px; height: 36px; border-radius: 8px; background: linear-gradient(135deg, var(--accent), var(--accent2)); display: grid; place-items: center; font-weight: 700; font-size: 14px; flex: none; }
+.mock-name { font-weight: 700; font-size: 14px; }
+.mock-name span { color: var(--muted); font-weight: 400; font-size: 12px; }
+.mock-line { font-size: 14px; margin-top: 4px; color: var(--text); }
+.mock-line span { display: inline-block; min-width: 6.2em; margin-right: 8px; color: var(--muted); font-size: 12px; }
+.mock-thread { margin: 14px 0 0 48px; padding-left: 14px; border-left: 2px solid #ffffff22; }
+.mock-thread-bar { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
 footer { padding: 32px 0; text-align: center; color: var(--muted); font-size: 13px; border-top: 1px solid #ffffff14; }
 
 /* form */
